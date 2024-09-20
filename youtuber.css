@@ -31,7 +31,17 @@ header .links a{
 }
 
 
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
+main h1 {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 150px;
+}
 
 
 
