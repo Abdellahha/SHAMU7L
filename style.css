@@ -37,6 +37,7 @@ main {
     justify-content: space-between;
     padding: 20px 80px;
     align-items: center;
+
 }
 
 .content{ 
@@ -44,6 +45,7 @@ main {
     width: 700px;
     align-items: center;
     display: flex;
+
     
 
 }
@@ -128,7 +130,7 @@ font-size: 24px;
 
     main {
         padding: 20px;
-        margin-top: 90px;
+        margin-top: 60px;
         flex-direction: column;
         text-align: center;
     }
