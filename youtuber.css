@@ -39,7 +39,6 @@ main {
 .channels {
     text-align: center;
     align-items: center;
-    padding: 20px 80px;
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -171,6 +170,17 @@ main {
     }
 
     
+.channels a img {
+    width: 150px;
+}
+.channels {
+    
+    flex-direction: column;
+    padding: 0px 0px;
+    margin-top: -40px;
 
+
+    
+}
 
 }
