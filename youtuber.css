@@ -32,18 +32,37 @@ header .links a{
 
 
 main {
-display: flex;
-justify-content: center;
-align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-main h1 {
+.channels {
+    text-align: center;
+    align-items: center;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 350px;
+    
+}
+
+
+.channels a {
+    text-decoration: none;
+    margin: 10px;
+
+}
+.channels a img{
+    border-radius: 50%;
+}
+
+.channels a p{
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 150px;
+    
 }
-
-
 
 
 
