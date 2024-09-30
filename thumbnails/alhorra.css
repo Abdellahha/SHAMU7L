@@ -29,3 +29,22 @@ header .links a{
     text-decoration: none;
     font-weight: 550;
 }
+
+
+main {
+    padding: 20px 55px;
+    margin: 0;
+    display: flex;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.thumbnails img {
+    width: 400px;
+}
