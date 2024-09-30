@@ -79,9 +79,7 @@ font-size: 24px;
 }
 
 .icons {
-    display: flex;
-    align-self: center;
-    justify-content: center;
+    
 }
 
 .icons a img {
@@ -146,15 +144,10 @@ font-size: 24px;
 
     main {
         padding: 20px;
-        margin-top: 60px;
+        margin-top: 25px;
         flex-direction: column;
         text-align: center;
     }
-
-    .about {
-        padding: 0;
-    }
-
 
     .about h1 {
         font-size: 40px;
@@ -180,21 +173,32 @@ font-size: 24px;
         font-size: 18px;
     }
 
-    .logo {
-        margin-top: 40px;
-        
+    .FLAYERS {
+        margin: 0;
     }
 
-    .logo img {
-       
+    .FLAYERS img {
+        width: 300px;
+        border-radius: 15px;
+    }
+    
+    .THUMBNAILS img {
+        width: 300px;
+        border-radius: 15px;
     }
 
-    .icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: ;
-        
-    }
+    
+.channels a img {
+    width: 150px;
+}
+.channels {
+    
+    flex-direction: column;
+    padding: 0px 0px;
+    margin-top: -70px;
+
+
+    
+}
 
 }
