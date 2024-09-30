@@ -48,7 +48,7 @@ main {
 
 .thumbnails img {
     width: 400px;
-    margin: 29px;
+    margin: 16px;
 }
 
 
@@ -118,7 +118,7 @@ main {
 
     main {
         padding: 20px;
-        margin-top: 90px;
+        margin-top: 15px;
         flex-direction: column;
         text-align: center;
     }
