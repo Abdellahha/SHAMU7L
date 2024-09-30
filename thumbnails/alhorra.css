@@ -35,6 +35,7 @@ main {
     padding: 20px 55px;
     margin: 0;
     display: flex;
+    
 }
 
 .thumbnails {
@@ -47,4 +48,5 @@ main {
 
 .thumbnails img {
     width: 400px;
+    margin: 29px;
 }
