@@ -123,6 +123,10 @@ main {
         text-align: center;
     }
 
+    .thumbnails img {
+        width: 330px;
+    }
+
 
     .about h1 {
         font-size: 40px;
