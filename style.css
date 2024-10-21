@@ -95,8 +95,9 @@ font-size: 24px;
 
 /* Tablets and small screens */
 @media (max-width: 1024px) {
+
     header {
-        flex-direction: wrap;
+        
     }
 
     header .links a {
@@ -128,8 +129,12 @@ font-size: 24px;
         max-width: 400px;
     }
 
-
 }
+
+
+
+
+
 
 /* Phones */
 @media (max-width: 768px) {
@@ -201,4 +206,12 @@ font-size: 24px;
     
 }
 
+}
+
+
+
+@media (max-width: 1080px) {
+.logo img {
+    
+}
 }
