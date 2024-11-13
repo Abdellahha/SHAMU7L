@@ -34,10 +34,17 @@ header .links a{
 }
 
 
-.THUMBNAILS img {
+.arab img {
     width: 400px;
     border-radius: 15px;
 }
+
+.english img {
+    width: 400px;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
 
 .FLAYERS {
     margin-left: 49px;
@@ -54,17 +61,32 @@ header .links a{
     transform: scale(1.03);
 }
 
-.THUMBNAILS img {
+.arab img {
     transition-duration:0.9s ;
 }
 
-.THUMBNAILS img:hover {
+.english img {
+    transition-duration:0.9s ;
+}
+
+
+.arab img:hover {
     transform: scale(1.03);
 }
 
-.THUMBNAILS {
+.english img:hover {
+    transform: scale(1.03);
+}
+
+
+.arab {
     text-align: center;
 }
+
+.english {
+    text-align: center;
+}
+
 
 
 .FLAYERS img {
@@ -82,10 +104,16 @@ header .links a{
     
 }
 
-.THUMBNAILS H3 {
+.arab H3 {
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.english H3 {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 .FLAYERS H3 {
     color: aliceblue;
@@ -194,10 +222,17 @@ header .links a{
         border-radius: 15px;
     }
     
-    .THUMBNAILS img {
+    .arab img {
         width: 300px;
         border-radius: 15px;
     }
+
+    .english img {
+        width: 300px;
+        border-radius: 15px;
+        padding-right: 30px;
+    }
+
 
     
 
