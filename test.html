@@ -41,10 +41,59 @@
 
         <div class="over-view">
             <h1>OVER-VIEW</h1>
+            <div class="telling">
+            <p>MORE THEN 6 YEARS OF EXPERIENCE IN GRAPHIC DESIGN, WORKING ON MANY PROJECTS AND DESIGNS, AND DEALING WITH SEVERAL CLIENTS. IN MY THOUGHTS, I USUALLY BELIEVE THAT THE IDEA IS THE MOST IMPORTANT THING IN THE DESIGN THEN HOW THE DESIGN WOULD BE LOOKS.</p>
+        </div>
+
+........
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group of Images Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-track" id="carousel-track">
+            <img class="carousel-image" src="image1.jpg" alt="Image 1" />
+            <img class="carousel-image" src="image2.jpg" alt="Image 2" />
+            <img class="carousel-image" src="image3.jpg" alt="Image 3" />
+            <img class="carousel-image" src="image4.jpg" alt="Image 4" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
         </div>
 
     </div>
-    
+    <script>
+        const track = document.getElementById('carousel-track');
+
+const images = [
+    "https://raw.githubusercontent.com/Abdellahha/SHAMU7L/refs/heads/main/thumbnails/ABDELLATIF/1.jpg", // Replace these with your image paths
+    "https://raw.githubusercontent.com/Abdellahha/SHAMU7L/refs/heads/main/thumbnails/ABDELLAT.jpg",
+    "https://raw.githubusercontent.com/Abdellahha/SHAMU7L/refs/heads/main/thumbnails/ABDELLATIF/4.jpg",
+    "https://raw.githubusercontent.com/Abdellahha/SHAMU7L/refs/heads/main/thumbnails/ABDELLATIF/8.jpg"
+];
+
+let currentIndex = 0;
+
+function slideImages() {
+    currentIndex = (currentIndex + 1) % images.length;
+    const offset = -currentIndex * 1920; // Width of each image
+    track.style.transform = `translateX(${offset}px)`;
+}
+
+// Change group of images every 5 seconds
+setInterval(slideImages, 5000);
+
+    </script>
 </body>
 </html>
 
