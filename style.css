@@ -154,6 +154,23 @@ font-size: 24px;
 .works img {
     width: 450px;
 }
+footer {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+footer p {
+    align-items: center;
+    justify-content: center;
+    padding:;
+}
 
 
 
