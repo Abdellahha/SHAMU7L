@@ -136,6 +136,25 @@ font-size: 24px;
     flex-shrink: 0;
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.works {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.works img {
+    width: 450px;
+}
+
 
 
 /* Responsive Layout */
