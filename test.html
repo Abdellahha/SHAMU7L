@@ -45,55 +45,55 @@
             <p>MORE THEN 6 YEARS OF EXPERIENCE IN GRAPHIC DESIGN, WORKING ON MANY PROJECTS AND DESIGNS, AND DEALING WITH SEVERAL CLIENTS. IN MY THOUGHTS, I USUALLY BELIEVE THAT THE IDEA IS THE MOST IMPORTANT THING IN THE DESIGN THEN HOW THE DESIGN WOULD BE LOOKS.</p>
         </div>
 
-........
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group of Images Slideshow</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .carousel {
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+
+        .carousel-image {
+            min-width: 100%;
+            height: auto;
+        }
+    </style>
+    <h1>RECENT DESIGNES</h1>
+
 </head>
-<body>
     <div class="carousel">
         <div class="carousel-track" id="carousel-track">
-            <img class="carousel-image" src="image1.jpg" alt="Image 1" />
-            <img class="carousel-image" src="image2.jpg" alt="Image 2" />
-            <img class="carousel-image" src="image3.jpg" alt="Image 3" />
-            <img class="carousel-image" src="image4.jpg" alt="Image 4" />
+            <img class="carousel-image" src="https://img.youtube.com/vi/pMSTkrvBmjs/maxresdefault.jpg" alt="Image 1">
+            <img class="carousel-image" src="https://img.youtube.com/vi/OUEKmgxfG5M/maxresdefault.jpg" alt="Image 2">
+            <img class="carousel-image" src="https://img.youtube.com/vi/sbQ1ROPbd2w/maxresdefault.jpg" alt="Image 3">
+            <img class="carousel-image" src="https://img.youtube.com/vi/jcasGoZQHKU/maxresdefault.jpg" alt="Image 4">
         </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
-
-
-        </div>
-
     </div>
     <script>
         const track = document.getElementById('carousel-track');
+        const images = document.querySelectorAll('.carousel-image');
+        let currentIndex = 0;
 
-const images = [
-    "image1.jpg", // Replace these with your image paths
-    "image2.jpg",
-    "image3.jpg",
-    "image4.jpg"
-];
+        function slideImages() {
+            currentIndex = (currentIndex + 1) % images.length;
+            const offset = -currentIndex * 100; // Shift by percentage width
+            track.style.transform = `translateX(${offset}%)`;
+        }
 
-let currentIndex = 0;
-
-function slideImages() {
-    currentIndex = (currentIndex + 1) % images.length;
-    const offset = -currentIndex * 1920; // Width of each image
-    track.style.transform = `translateX(${offset}px)`;
-}
-
-// Change group of images every 5 seconds
-setInterval(slideImages, 5000);
-
+        // Start the slideshow, transitioning every 5 seconds
+        setInterval(slideImages, 5000);
     </script>
+
+
 </body>
 </html>
 
